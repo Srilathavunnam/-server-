@@ -5,7 +5,7 @@ var value=0;
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   value=value+1;
-  res.send('User accesses are: '+values);
+  res.send('User accesses are: '+value);
 });
 
 module.exports = router;
