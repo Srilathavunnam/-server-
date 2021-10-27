@@ -9,7 +9,7 @@ var value=Math.cos(rand);
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   
-  res.send('[Math.cos()] applied to ['+rand+'] is ['+Math.cos(rand)+']');
+  res.send('[Math.cos()] applied to ['+1+'] is ['+value+']');
 });
 
 module.exports = router;
