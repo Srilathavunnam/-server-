@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var rand=Math.floor(Math.random);
+var rand=Math.floor(Math.random *10);
 var value=Math.cos(rand);
 
 
